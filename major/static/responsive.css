@@ -1,0 +1,91 @@
+.logo{
+    height: 100px;
+    width: 100px;
+    margin: 5px 12px;
+}
+.items{
+    display: none;
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    margin: 4px;
+    padding: 6px;
+
+}
+.items li a {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+.header::before {
+    content: " ";
+    position: absolute;
+    background: url(../static/bc.jpg) no-repeat center;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.59;
+}
+.school-list img {
+    height: 50px;
+    width: 50px;
+}
+.school-list {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.school {
+    border: 10px solid white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    padding: 17px 38px;
+    margin: 25px 14px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.uniform img{
+    height: 215px;
+    width: 350px;
+}
+.extra img{
+    height: 200px;
+    width: 422px;
+    justify-content: center;
+    align-items: center;
+}
+.extra{
+    justify-content: center;
+    align-items: center;
+}
+.extra-list{
+    justify-content: center;
+    align-items: center;
+}
+#search-input {
+    width: 160px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.social-contact a img {
+    height: 30px;
+    width: 30px;
+}
+.uniform-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.extra-list {
+    display: flex;
+    flex-direction: column;
+}
+.mydetails {
+    font-size: 16px;
+    margin-left: 19px;
+}
